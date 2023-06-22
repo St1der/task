@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <DataGrid Name="MyDataGrid" Height="435" Width="400" HorizontalAlignment="Left" Canvas.Left="400" VerticalAlignment="Center"></DataGrid>
+            <Button Height="50"  Width="70" Canvas.Left="168" Canvas.Top="21" Content="Show" Click="Button_Click"></Button>
+            <Button Height="50"  Width="70" Canvas.Left="22" Canvas.Top="123"  ></Button>
+            <Button Content="Delete" Height="50"  Width="70" Canvas.Left="22" Canvas.Top="123"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click_1"  />
+            <Button Content="Add"  Height="50"  Width="70" Canvas.Left="301" Canvas.Top="123"  HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click_2"  />
+            <Label Content="Name" Canvas.Left="22" Canvas.Top="192"></Label>
+            <TextBox Name="name"  Canvas.Left="110" Canvas.Top="196" HorizontalAlignment="Left" VerticalAlignment="Center" Width="70"></TextBox>
+            <Label Content="Description" Canvas.Left="22" Canvas.Top="223" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox Name="description"  Canvas.Left="110" Canvas.Top="227" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="" Canvas.Left="22" Canvas.Top="254" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Price" Canvas.Left="22" Canvas.Top="254" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox Name="price" Canvas.Left="110" Canvas.Top="258" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Discount" Canvas.Left="22" Canvas.Top="285" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox Name="discount" Canvas.Left="110" Canvas.Top="289" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Quantity" Canvas.Left="22" Canvas.Top="316" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox Name="Quantity" Canvas.Left="110" Canvas.Top="320" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Name" Canvas.Left="103" Canvas.Top="135" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox  Name="Id" Canvas.Left="150" Canvas.Top="139" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.619,0.522"/>
+
+        </Canvas>
+    </Grid>
+</Window>
